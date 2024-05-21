@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Chilacajita</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">
+                    <img src="media/logo-negro.png" alt="Logo" width="220" height="28" class="d-inline-block align-text-center">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#home">Inicio</a>
+                        <a class="nav-link" href="#">Quiénes somos</a>
+                        <a class="nav-link" href="#">Contáctenos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-right">
+                <a href="#" class="search-icon">
+                    <i class="fas fa-search"></i>
+                </a>
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar" onclick="event.stopPropagation();">
+                </div>
+                <a href="carrito.html" class="cart-button">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                <a href="login.html" class="login-button">
+                    <button class="btn btn-outline-secondary" type="button">Ingresar</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="background_overlay"></div>
+        <img src="media/background3.png" alt="background" class="home_background_img"/>
+        <div class="home_text_container">
+            <img class="home_logo" src="media/logo-blanco.png" alt="Logo" width="500" height="70">
+            <h2 class="home_heading">¡De una cajita a tu boquita!</h2>
+            <p class="home_desc">
+                Descubre los chilaquiles más auténticos y sabrosos, preparados con los ingredientes más frescos.
+                ¡Elige tu favorito y disfruta el verdadero sabor de México!
+            </p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2 class="products_heading">Conoce nuestra variedad de chilaquiles</h2>
+        <div class="products_container">
+            <div class="product_container">
+                <img src="media/product1.jpeg" alt="product_2" class="product_img"/>
+                <div class="product_details">
+                    <h2 class="product_name">Chilaquiles rojos</h2>
+                    <p class="product_price">$35.00</p>
+                </div>
+                <button class="product_add_btn">Añadir</button>
+            </div>
+            <div class="product_container">
+                <img src="media/producto1.png" alt="product_2" class="product_img"/>
+                <div class="product_details">
+                    <h2 class="product_name">Chilaquiles verdes</h2>
+                    <p class="product_price">$35.00</p>
+                </div>
+                <button class="product_add_btn">Añadir</button>
+            </div>
+            <div class="product_container">
+                <img src="media/producto1.png" alt="product_3" class="product_img"/>
+                <div class="product_details">
+                    <h2 class="product_name">+Topping pollo</h2>
+                    <p class="product_price">$35.00</p>
+                </div>
+                <button class="product_add_btn">Añadir</button>
+            </div>
+            <div class="product_container">
+                <img src="media/producto1.png" alt="product_4" class="product_img"/>
+                <div class="product_details">
+                    <h2 class="product_name">+Topping huevo</h2>
+                    <p class="product_price">$35.00</p>
+                </div>
+                <button class="product_add_btn">Añadir</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Corporation section -->
+    <section id="corporation">
+        <div class="container-chilacajita">
+            <div class="container-texto">
+                <h3>¿Por qué chilacajita?</h3>
+                <p>En Chilacajita, entendemos que tu tiempo es valioso, pero también creemos que mereces disfrutar de comidas
+                    deliciosas y frescas, así como fáciles de transportar. Es por ello, que hemos creado una propuesta única:
+                    Chilaquiles preparados con ingredientes fresocos y auténticos, listos para deleitar tu paladar en cada bocado.
+                    Pero es no es todo, nos enorgullece presentar nuestros chilaquiles en Chilacajitas, un empaque de caja 100% 
+                    sustentable que no solo cuida de tu apetito, sino también del medio ambiente.
+                </p>
+            </div>
+        </div>
+        <div class="img-container-corp">
+            <img src="media/corporation.png" alt="corporation" class="img-corp">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+	<footer class="footer_container">
+        <div class="footer_left">
+            <p class="footer_copyright">&copy; Proyecto Académico - TecNM Campus Pachuca - Negocios Electrónicos II</p>
+        </div>
+        <div class="footer_right">
+            <a href="/" class="footer_links">Política de Privacidad</a>
+            <a href="/" class="footer_links">Política de Cookies</a>
+            <a href="/" class="footer_links">Ajustes de Cookies</a>
+            <a href="/" class="footer_links">Terminos y Condiciones</a>
+        </div>
+    </footer>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
